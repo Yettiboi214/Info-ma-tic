@@ -1,0 +1,37 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: lucid console, monaco, monospace;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+nav a {
+  font-weight: bold;
+  color: red;
+  font-family: lucid console, monaco, monospace;
+  font-size: 100%;
+
+}
+
+nav a:hover {
+  color: beige;
+}
+
+.image {
+  border-image: round;
+}
