@@ -6,7 +6,13 @@
 header{
   display: flex;
   justify-content: space-between;
+  background-color: black;
   color: red;
+}
+
+p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
 }
 
 h1 {
@@ -36,6 +42,14 @@ nav a:hover {
   color: beige;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: red;
+}
+
+
 #about{
   width: 100%;
   background-color: red;
@@ -46,6 +60,17 @@ nav a:hover {
   border-radius: 8px;
   width: 25%;
 }
+
+#work {
+  width: 100%;
+  background-color: red;
+  background-position: center;
+}
+
+#contact {
+text-align: \;
+}
+
 
 .portfolio {
   display: flex;
